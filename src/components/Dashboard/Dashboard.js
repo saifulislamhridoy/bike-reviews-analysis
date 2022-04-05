@@ -1,8 +1,8 @@
 import React from 'react';
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
-    const data=[
+    const data = [
         {
             "month": "Mar",
             "investment": 100000,
@@ -41,18 +41,38 @@ const Dashboard = () => {
         }
     ];
     return (
-        <div>
-          <div>
-              <LineChart  width={600} height={300} data={data}>
-                <Line type="monotone" dataKey="revenue" stroke="#8884d8"></Line>
-                <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-                <XAxis dataKey="month"></XAxis>
-                <YAxis></YAxis>
-                <Tooltip></Tooltip>
-              </LineChart>
-          </div>
-          <div>
-          </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 mt-20'>
+            <div>
+                <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                    <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
+                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                </LineChart>
+
+            </div>
+            <div>
+                <BarChart
+                    width={500}
+                    height={300}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" fill="#8884d8" />
+                    <Bar dataKey="sell" fill="#82ca9d" />
+                </BarChart>
+            </div>
         </div>
     );
 };
