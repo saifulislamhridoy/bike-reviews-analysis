@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
 
@@ -20,13 +21,14 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid justify-center mt-10">
+            <div className="grid justify-center mt-10 mb-10">
             <h2 className="text-4xl font-bold text-center">Customer Reviews(6)</h2>
-                <div className="grid grid-cols-3 gap-20 mt-10 mb-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mt-10 mb-10 justify-items-center">
                     {
                    sliceReviews.map(review => <Review key={review.id} review={review}></Review>)
                     }
                 </div>
+                <Link className="text-center" to='/reviews'><span className="bg-slate-500 py-2 px-3 text-white font-bold rounded">See All Reviews</span></Link>
             </div>
         </div>
     );
