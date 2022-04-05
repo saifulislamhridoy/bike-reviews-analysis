@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ];
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 mt-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 mt-20 h-[70vh]'>
             <div>
                 <ResponsiveContainer height={300} width="100%">
                 <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
