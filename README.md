@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# bike-reviews-analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ [My Live site](https://shiny-cannoli-939be8.netlify.app/).
+
+(https://shiny-cannoli-939be8.netlify.app/)
 
 ## Available Scripts
 
