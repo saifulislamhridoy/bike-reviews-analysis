@@ -2,44 +2,44 @@
    
       {
         "id": 1,
-        "comment": "Harry Potter",
-        "price":"This Bike Is So Comfortable And Looking Very Nice",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fharrypotter%2Fimages%2F9%2F97%2FHarry_Potter.jpg%2Frevision%2Flatest%3Fcb%3D20140603201724&imgrefurl=https%3A%2F%2Fharrypotter.fandom.com%2Fwiki%2FHarry_Potter&tbnid=0gIfiRMcEzTMoM&vet=12ahUKEwibyYnR8vr2AhVdidgFHafKD38QMygEegUIARDbAQ..i&docid=ToT9OsrSXaQlyM&w=360&h=480&q=harry%20potter&ved=2ahUKEwibyYnR8vr2AhVdidgFHafKD38QMygEegUIARDbAQ",
+        "name": "Harry Potter",
+        "comment":"I was very eager to get the Husqvarna Vitpilen 250 (well waited for the test ride which took a long time due to covid Ktm showroom adyar)",
+        "img": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "rating": 4.5
       },
       {
         "id": 2,
         "name": "Mako Mack",
         "comment":"No 1 in world With best looking, mileage is okay. More colours should be added, the colour is beautiful.",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F220453%2Fpexels-photo-220453.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fman%2F&tbnid=iqUapMoekRrKBM&vet=12ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMygMegUIARD6AQ..i&docid=siXBgr-E-CQ1BM&w=500&h=750&q=man%20image&ved=2ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMygMegUIARD6AQ",
+        "img": "https://media.istockphoto.com/photos/portrait-of-handsome-smiling-young-man-with-crossed-arms-picture-id1200677760?k=20&m=1200677760&s=612x612&w=0&h=JCqytPoHb6bQqU9bq6gsWT2EX1G5chlW5aNK81Kh4Lg=",
         "rating": 5
       },
       {
         "id": 3,
         "name": "Venku Goo",
         "comment":"I loved this bike the first time I saw it and to my luck I was looking to purchase a new motorcycle and I knew it had to be this or a duke 390.",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fportrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg&imgrefurl=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fman.html&tbnid=s7AOfLDnLcsh4M&vet=12ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMygQegUIARCEAg..i&docid=s0JqTG4jfnnIVM&w=744&h=900&q=man%20image&ved=2ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMygQegUIARCEAg",        
+        "img": "https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg",        
         "rating": 4.5
       },
       {
         "id": 4,
         "name": "Jeans",
-        "comment": "Super bike i love it.Just awsome!!",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fus.123rf.com%2F450wm%2Fmimagephotography%2Fmimagephotography1602%2Fmimagephotography160200833%2F53356511-close-up-portrait-of-a-smiling-young-african-american-man-in-a-denim-shirt-against-white-background.jpg%3Fver%3D6&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fstock-photo%2Fblack_man_jeans.html&tbnid=MDapMaJwaaJT1M&vet=12ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMyg8egQIARBx..i&docid=Uigb5hsOLvZ9NM&w=450&h=300&q=man%20image&ved=2ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMyg8egQIARBx",
+        "comment": "I was very eager to get the Husqvarna Vitpilen 250 (well waited for the test ride which took a long time due to covid Ktm showroom adyar)!",
+        "img": "https://st2.depositphotos.com/2056297/7333/i/600/depositphotos_73331715-stock-photo-handsome-man.jpg",
         "rating": 5
       },
       {
         "id": 5,
         "name": "Rudi Kuchta",
         "comment": "Ground clearance will be a problem sometimes with pillion. Good performance-i clocked 160 km/h.",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.mantruckandbus.com%2Ffileadmin%2Fmedia%2Fbilder%2F02_19%2F219_05_busbusiness_interviewHeader_1485x1254.jpg&imgrefurl=https%3A%2F%2Fwww.mantruckandbus.com%2Fen%2Fpeople%2Fbus-business-is-people-business.html&tbnid=6KrH70EydYoa_M&vet=12ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMyhDegUIARCBAQ..i&docid=VFjkLvbRGDtfnM&w=1485&h=1254&q=man%20image&ved=2ahUKEwiRq4uV8_r2AhW1_jgGHcTFDFEQMyhDegUIARCBAQ",
+        "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202106/Gray_Man.jpg?TIM.pBR2amOelRvfmi4Xnqd2cOqL83JW&size=770:433",
         "rating": 4.5
       },
       {
         "id": 6,
         "name": "Hero Alom",
         "comment":"1. Bike is in the best in class. 2. Riding on highways are very good. 3. Service cost is same as duke 250.",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F771985725591998464%2FSwtgkoOL_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fheroalambogra&tbnid=9vWQd3IEStJfVM&vet=12ahUKEwjh8dC39Pr2AhVQg2MGHSBFDGMQMygEegUIARDjAQ..i&docid=OrbAo3XNetz0BM&w=400&h=400&q=hero%20alom&ved=2ahUKEwjh8dC39Pr2AhVQg2MGHSBFDGMQMygEegUIARDjAQ",
+        "img": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg&ga=GA1.2.946239694.1639094400",
         "rating": 5
       }
      
