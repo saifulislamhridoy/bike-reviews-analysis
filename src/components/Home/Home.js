@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="grid justify-center mt-10 mb-10">
-            <h2 className="text-4xl font-bold text-center">Customer Reviews(6)</h2>
+            <h2 className=" text-3xl md:text-4xl font-bold text-center">Customer Reviews(6)</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mt-10 mb-10 justify-items-center">
                     {
                    sliceReviews.map(review => <Review key={review.id} review={review}></Review>)
