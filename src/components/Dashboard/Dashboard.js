@@ -43,6 +43,7 @@ const Dashboard = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 mt-20'>
             <div>
+                <ResponsiveContainer height={300} width="100%">
                 <LineChart width={600} height={300} data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                     <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -50,10 +51,12 @@ const Dashboard = () => {
                     <YAxis />
                     <Tooltip />
                 </LineChart>
+                </ResponsiveContainer>
 
             </div>
             <div>
-                <BarChart
+               <ResponsiveContainer height={300} width="100%">
+               <BarChart
                     width={500}
                     height={300}
                     data={data}
@@ -70,8 +73,9 @@ const Dashboard = () => {
                     <Tooltip />
                     <Legend />
                     <Bar dataKey="investment" fill="#8884d8" />
-                    <Bar dataKey="sell" fill="#82ca9d" />
+                    <Bar dataKey="revenue" fill="#82ca9d" />
                 </BarChart>
+               </ResponsiveContainer>
             </div>
         </div>
     );
